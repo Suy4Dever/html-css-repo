@@ -89,7 +89,7 @@ li:last-child {
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 .article-header {
@@ -154,4 +154,14 @@ h4 {
 
 article {
   margin: 60px 0px;
+}
+
+nav a:link {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+nav a:link:last-child {
+  margin-right: 0px;
 }
