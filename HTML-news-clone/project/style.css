@@ -5,6 +5,7 @@
 
 body {
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 
 h1,
@@ -104,6 +105,7 @@ li:last-child {
 .container-body {
   width: 800px;
   margin: 0px auto;
+  /* position: relative; */
 }
 
 aside {
@@ -164,4 +166,12 @@ nav a:link {
 
 nav a:link:last-child {
   margin-right: 0px;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
