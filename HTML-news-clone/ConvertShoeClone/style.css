@@ -74,6 +74,9 @@ button {
   font-size: 20px;
   text-transform: uppercase;
   width: 100%;
+  border-top: 5px solid black;
+  border-left: none;
+  border-right: none;
 }
 
 button:hover {
