@@ -28,6 +28,7 @@ p {
 .main-header {
   background-color: #f7f7f7;
   padding: 16px;
+  position: relative;
 }
 
 .price {
@@ -66,6 +67,7 @@ a:hover {
   width: 825px;
   margin: 0px auto;
   border: 5px solid black;
+  margin-top: 40px;
 }
 
 button {
@@ -97,4 +99,18 @@ ul {
 
 li {
   margin-bottom: 16px;
+}
+
+header::before {
+  content: "Sale";
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  background-color: red;
+  padding: 12px 16px;
+  position: absolute;
+  top: -22px;
+  left: -36px;
 }
