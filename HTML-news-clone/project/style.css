@@ -107,7 +107,7 @@ li:last-child {
 }
 
 .container-body {
-  width: 800px;
+  width: 1000px;
   margin: 0px auto;
   /* position: relative; */
 }
@@ -204,4 +204,19 @@ h2::after {
   float: left;
   margin-left: 20px;
   margin-top: 10px;
+}
+
+/* Building layout of navigator */
+.main-header h1 {
+  float: left;
+}
+
+.main-header nav {
+  float: right;
+}
+
+.main-header::after {
+  content: "";
+  clear: both;
+  display: block;
 }
