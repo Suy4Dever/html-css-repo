@@ -113,6 +113,7 @@ header::before {
   position: absolute;
   top: -22px;
   left: -36px;
+  letter-spacing: 4px;
 }
 
 .color-container {
