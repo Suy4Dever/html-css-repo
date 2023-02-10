@@ -114,3 +114,38 @@ header::before {
   top: -22px;
   left: -36px;
 }
+
+.color-container {
+  margin-top: 16px;
+}
+
+.color {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.color1 {
+  background-color: black;
+}
+
+.color2 {
+  background-color: blue;
+}
+
+.color3 {
+  background-color: red;
+}
+
+.color4 {
+  background-color: yellow;
+}
+
+.color5 {
+  background-color: green;
+}
+
+.color6 {
+  background-color: brown;
+}
