@@ -107,7 +107,7 @@ li:last-child {
 }
 
 .container-body {
-  width: 1000px;
+  width: 1200px;
   margin: 0px auto;
   /* position: relative; */
 }
@@ -219,4 +219,19 @@ h2::after {
   content: "";
   clear: both;
   display: block;
+}
+
+.article {
+  float: left;
+  width: 850px;
+}
+
+.related-post {
+  float: right;
+  width: 300px;
+  margin-top: 60px;
+}
+
+footer {
+  clear: both;
 }
