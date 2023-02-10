@@ -1,6 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -48,6 +49,7 @@ h3 {
 h4 {
   font-size: 20px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 p {
@@ -59,7 +61,6 @@ p {
 
 ul,
 ol {
-  padding-left: 50px;
   padding-bottom: 20px;
 }
 
@@ -230,6 +231,7 @@ h2::after {
   float: right;
   width: 300px;
   margin-top: 60px;
+  padding: 40px;
 }
 
 footer {
