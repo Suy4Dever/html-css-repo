@@ -124,10 +124,10 @@ header::before {
 }
 
 .color {
-  display: inline-block;
+  /* display: inline-block; */
   width: 16px;
   height: 16px;
-  margin-right: 8px;
+  /* margin-right: 8px; */
 }
 
 .color1 {
@@ -160,7 +160,7 @@ header::before {
   margin-right: 35px;
 }
 
-.img-container img {
+/* .img-container img {
   float: left;
   width: 240px;
 }
@@ -173,21 +173,45 @@ header::before {
 .detail-container {
   float: right;
   width: 240px;
-}
+} */
 
 .price {
-  float: left;
+  /* float: left; */
   margin-top: 22px;
   font-size: 25px;
   margin-bottom: 12px;
 }
 
 .shipping {
-  float: right;
+  /* float: right; */
   margin-top: 30px;
   font-size: 10px;
 }
 
-.clear {
+/* .clear {
   clear: both;
+} */
+
+article {
+  display: flex;
+  gap: 35px;
+}
+
+.info-container {
+  margin-right: 0px;
+  flex: 1 1 0px;
+}
+
+.img-container {
+  flex: 1 1 0px;
+
+}
+
+.detail-container {
+  flex: 1 1 0px;
+}
+
+.color-container {
+  display: flex;
+  gap: 8px;
 }
