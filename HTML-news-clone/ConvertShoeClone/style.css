@@ -203,9 +203,9 @@ article {
   flex: 1 1 0px;
 }
 
-img {
+.img-container img{
   flex: 1 1 0px;
-
+  display: block;
 }
 
 .detail-container {
