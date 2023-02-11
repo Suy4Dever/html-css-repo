@@ -255,3 +255,30 @@ footer {
 #author {
   margin-bottom: 0px;
 }
+
+.related-post li {
+  display: flex; 
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.related-author {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.related-link:link {
+  font-size: 17px;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.related-post {
+  padding: 30px;
+  /* margin-bottom: 30px; */
+}
