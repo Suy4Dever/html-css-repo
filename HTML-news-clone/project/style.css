@@ -196,7 +196,7 @@ h2::after {
   right: -25px;
 }
 
-.img-author {
+/* .img-author {
   float: left;
   margin-bottom: 20px;
 }
@@ -205,10 +205,10 @@ h2::after {
   float: left;
   margin-left: 20px;
   margin-top: 10px;
-}
+} */
 
 /* Building layout of navigator */
-.main-header h1 {
+/* .main-header h1 {
   float: left;
 }
 
@@ -236,4 +236,15 @@ h2::after {
 
 footer {
   clear: both;
+} */
+
+/* FlexBox using */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header nav {
+  display: flex;
 }
