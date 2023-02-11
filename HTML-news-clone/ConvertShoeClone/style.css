@@ -215,3 +215,8 @@ article {
   display: flex;
   gap: 8px;
 }
+
+.price-shipping {
+  display: flex;
+  justify-content: space-between;
+}
