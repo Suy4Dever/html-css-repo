@@ -245,6 +245,13 @@ footer {
   justify-content: space-between;
 }
 
-.main-header nav {
+.author-container {
   display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#author {
+  margin-bottom: 0px;
 }
