@@ -239,7 +239,7 @@ footer {
 } */
 
 /* FlexBox using */
-.main-header {
+/* .main-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -280,7 +280,7 @@ footer {
 
 .related-post {
   padding: 30px;
-  /* margin-bottom: 30px; */
+  /* margin-bottom: 30px; 
 }
 
 .content-container {
@@ -296,4 +296,5 @@ footer {
 .related-post {
   flex: 0 0 300px;
   margin-top: 60px
-}
+} */
+
