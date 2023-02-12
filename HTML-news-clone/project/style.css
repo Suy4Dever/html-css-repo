@@ -298,3 +298,53 @@ footer {
   margin-top: 60px
 } */
 
+/* Building layout using grid */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#author {
+  margin-bottom: 0px;
+}
+
+.related-post li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.name-author-container a:link{
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.related-post li:last-child {
+  margin-bottom: 0px;
+}
+
+.related-author {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.related-post {
+  padding: 30px;
+}
+
+.related-author {
+  margin-bottom: 0px;
+}
+
+article ul, article ol {
+  margin-left: 50px;
+}
