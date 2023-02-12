@@ -325,6 +325,7 @@ footer {
 .name-author-container a:link{
   font-weight: bold;
   font-size: 17px;
+  font-style: normal;
 }
 
 .related-post li:last-child {
